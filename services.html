@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/profile.jpg" type="image/x-icon">
+
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Rhyttah</title>
+</head>
+
+<body>
+    <!-- Website Layout -->
+    <div class="website_container">
+
+        <!-- Global Menu -->
+        <div id="global_menu_button_container">
+            <p class="site_title">Rita Kogi</p>
+            <i class="fa fa-bars" id="global_menu_button"></i>
+        </div>
+
+        <ul id="global_menu_items">
+            <div>
+                <i class="fa fa-close" id="global_menu_close_button"></i>
+                <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="resume.html"><i class="fas fa-file-alt"></i> Resume</a></li>
+                <li><a href="blogs.html"><i class="fas fa-pen-nib"></i> Projects</a></li>
+                <li><a href="services.html"><i class="fas fa-cog"></i> Services</a></li>
+                <li><a href="contact.html"><i class="fas fa-phone-square"></i> Contact</a></li>
+            </div>
+        </ul>
+
+        <!--x Global Menu x-->
+
+        <!-- sidebar -->
+        <div class="sidebar_container">
+            <!-- Sidebar Image -->
+            <div class="image">
+                <img src="img/profile.jpg" alt="John Roe">
+                <div class="right_image_box"></div>
+                <div class="left_image_box"></div>
+            </div>
+
+            <!-- sidebar Content -->
+            <div class="sidebar_content">
+                <!-- Long name can be applied so easily -->
+                <h1>Rita Kogi</h1>
+                <p>Fullstack Developer</p>
+                <!-- Social Medias -->
+                <div class="social_media">
+                    <a href="https://www.linkedin.com/in/rita-kogi-2b57861a2/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/rkogi2022/"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+
+            <!-- Sidebar Buttom Menu -->
+            <div class="sidebar_buttom_menu" id="sidebar_buttom_menu">
+                <i class="fa fa-bars" id="sidebar_menu_icon"></i>
+            </div>
+
+            <!-- Sidebar Navigation -->
+            <ul class="sidebar_navigation" id="sidebar_navigation">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="blogs.html">Projects</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+        </div>
+        <!-- content -->
+        <div class="content_container">
+            <!-- Services Page -->
+            <div class="services_page">
+                <h2 class="title">My <span>Services</span></h2>
+                <hr class="line">
+                <!-- Services Row -->
+                <div class="services_container">
+                    <div class="services_box">
+                        <i class="fas fa-tablet-alt"></i>
+                        <h3 class="services_title">App Development</h3>
+                        <p class="services_text">App development includes designing user interfaces, writing code in programming languages like Java, Python, or JavaScript, testing for bugs and usability, and finally launching the app on app stores or within organizations. App developers focus on functionality,
+                            user experience, security, and scalability to ensure the app meets client requirements and user expectations. </p>
+                    </div>
+                    <div class="services_box">
+                        <i class="fas fa-globe"></i>
+                        <h3 class="services_title">Website Development</h3>
+                        <p class="services_text">Website development involves creating and maintaining websites for individuals,
+                            businesses, or organizations. It includes designing the layout, functionality, and user interface, using programming languages like HTML, CSS, JavaScript, and frameworks like Django or React. Development also involves integrating backend systems, databases, and ensuring compatibility across different devices and browsers. The goal is to create a user-friendly, visually appealing, and functional website that meets the client's objectives,
+                            whether it's for e-commerce, informational purposes, or interactive platforms.</p>
+                    </div>
+                </div>
+
+                <div class="services_container">
+                    <div class="services_box">
+                        <i class="fas fa-pencil-ruler"></i>
+                        <h3 class="services_title">Web Design</h3>
+                        <p class="services_text">Web design involves creating visually appealing and functional websites. It combines aesthetic principles with technical skills to ensure a seamless user experience. From layout and navigation to color schemes and typography, every element is carefully crafted to reflect the brand's identity and enhance usability. Effective web design also focuses on responsiveness, ensuring the site looks and functions well across various devices. It aims to engage visitors,
+                            convey information clearly, and drive desired actions, ultimately contributing to the client's
+                            online presence and business goals. </p>
+                    </div>
+                    <div class="services_box">
+                        <i class="fas fa-drafting-compass"></i>
+                        <h3 class="services_title">API Development</h3>
+                        <p class="services_text">API development involves creating application programming interfaces that allow different software applications to communicate and interact with each other. It defines the methods and protocols through which software components can request and exchange data, enabling seamless integration and functionality across diverse systems. APIs are crucial for modern software development, facilitating connectivity between platforms, enabling data sharing, and supporting the creation of new applications by leveraging existing functionalities. This service ensures robust, efficient, and secure
+                            API implementations tailored to meet specific business needs, enhancing scalability,
+                            interoperability, and overall system functionality. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
